@@ -1,0 +1,207 @@
+{
+  // Window Settings
+  "window.zoomLevel": 1,
+
+  // Editor Core Settings
+  "editor.fontSize": 12,
+  "editor.tabSize": 2,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.wordWrap": "on",
+  "editor.minimap.enabled": false,
+  "editor.guides.highlightActiveBracketPair": true,
+  "editor.guides.indentation": false,
+  "editor.guides.bracketPairs": "active",
+  "editor.inlayHints.enabled": "on",
+  "editor.linkedEditing": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.suggestSelection": "first",
+  "editor.rulers": [90],
+  "editor.cursorBlinking": "solid",
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.overviewRulerBorder": false,
+  "editor.renderWhitespace": "all",
+  "editor.lightbulb.enabled": "off",
+  "editor.experimentalWhitespaceRendering": "off",
+  "editor.scrollbar.verticalScrollbarSize": 8,
+
+  // Language-specific Settings
+  "[javascript]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "editor.suggest.insertMode": "replace"
+  },
+
+  // File Management
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
+  // Explorer Settings
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "explorer.compactFolders": false,
+  "scm.compactFolders": false,
+
+  // Workbench UI Settings
+  "workbench.colorTheme": "Aura Dracula Spirit (Synthwave)",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.activityBar.location": "hidden",
+  "workbench.sideBar.location": "right",
+  "workbench.editor.wrapTabs": true,
+  "workbench.editor.showTabs": "single",
+  "workbench.layoutControl.enabled": false,
+  "workbench.navigationControl.enabled": false,
+  "workbench.tips.enabled": false,
+  "workbench.colorCustomizations": {
+    "editorBracketHighlight.foreground1": "#9ef96a",
+    "editorBracketHighlight.foreground2": "#5caeef",
+    "editorBracketHighlight.foreground3": "#f37cef",
+    "editorBracketHighlight.foreground4": "#ffd700",
+    "editorBracketHighlight.foreground5": "#ffc0cb",
+    "editorBracketHighlight.foreground6": "#97c26c",
+    "editorBracketHighlight.foreground7": "#abb2c0",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#db6165"
+  },
+
+  // Window Settings
+  "window.customTitleBarVisibility": "never",
+  "window.titleBarStyle": "native",
+
+  // Terminal Settings
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": ["${env:windir}\\Sysnative\\cmd.exe", "${env:windir}\\System32\\cmd.exe"],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "Ubuntu (WSL)": {
+      "path": "C:\\WINDOWS\\System32\\wsl.exe",
+      "args": ["-d", "Ubuntu"]
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
+  "terminal.integrated.enableImages": true,
+  "terminal.integrated.hideOnStartup": "whenEmpty",
+
+  // Git Settings
+  "git.autofetch": true,
+
+  // Linting and Formatting
+  "eslint.format.enable": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "css.lint.duplicateProperties": "error",
+  "css.lint.float": "error",
+  "css.lint.important": "error",
+  "html.format.wrapLineLength": 100,
+  "prettier.printWidth": 90,
+  "prettier.documentSelectors": ["**/*.astro", "*.{jsx,html}", "*.astro"],
+
+  // Security
+  "security.workspace.trust.untrustedFiles": "open",
+
+  // Kubernetes Settings
+  "vs-kubernetes": {
+    "vscode-kubernetes.helm-path-mac": "/Users/joseiciano/.vs-kubernetes/tools/helm/darwin-arm64/helm",
+    "vscode-kubernetes.kubectl-path-mac": "/Users/joseiciano/.vs-kubernetes/tools/kubectl/kubectl",
+    "vscode-kubernetes.minikube-path-mac": "/Users/joseiciano/.vs-kubernetes/tools/minikube/darwin-arm64/minikube"
+  },
+
+  // Vim Settings
+  "vim.smartRelativeLine": true,
+  "vim.hlsearch": true,
+  "vim.normalModeKeyBindings": [],
+
+  // Custom UI Style
+  "custom-ui-style.electron": {
+    "titleBarStyle": "hiddenInset",
+    "trafficLightPosition": {
+      "x": 16,
+      "y": 10
+    }
+  },
+  "custom-ui-style.stylesheet": {
+    ".notification-toast": "box-shadow: none !important",
+    ".quick-input-widget": "top: 25vh !important",
+    ".monaco-workbench .part.editor > .content .editor-group-container > .title > .label-container > .title-label": "padding-left: 80px"
+  },
+  "editor.fontLigatures": false,
+  // "custom-ui-style.font.sansSerif": "Fira Code",
+
+  // T-Tree Settings
+  "todo-tree.tree.showCountsInTree": true,
+  "todo-tree.general.statusBar": "top three",
+  "todo-tree.general.showIconsInsteadOfTagsInStatusBar": true,
+  "todo-tree.general.tags": ["TODO", "FIXME", "FIXIT", "FIX", "BUG"],
+  "todo-tree.general.tagGroups": {
+    "FIXME": ["FIXME", "FIXIT", "FIX", "BUG"]
+  },
+  "todo-tree.highlights.customHighlight": {
+    "TODO": {
+      "gutterIcon": true,
+      "icon": "tasklist",
+      "iconColour": "#FF8C00",
+      "type": "tag",
+      "background": "#CF7200",
+      "foreground": "#FFFFFF",
+      "fontWeight": "bold"
+    },
+    "FIXME": {
+      "gutterIcon": true,
+      "icon": "tools",
+      "iconColour": "#00FF00",
+      "type": "tag",
+      "background": "#008000",
+      "foreground": "#FFFF00",
+      "fontWeight": "bold"
+    }
+  },
+
+  // Other Settings
+  "json.schemas": [],
+  "find-it-faster.general.batTheme": "dracula",
+  "find-it-faster.findWithinFiles.fuzzRipgrepQuery": true,
+  "launch": {
+    "configurations": [],
+    "compounds": []
+  },
+  "workbench.editor.limit.enabled": true,
+  "workbench.editor.limit.value": 5,
+  "editor.accessibilitySupport": "off"
+}
