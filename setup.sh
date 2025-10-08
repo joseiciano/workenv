@@ -36,6 +36,9 @@ echo "Installing tmux..."
 brew install tmux
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
+echo "Installing neovim..."
+brew install neovim
+
 echo "Installing yazi..."
 brew install yazi ffmpeg sevenzip jq poppler fd ripgrep fzf zoxide resvg imagemagick font-symbols-only-nerd-font
 
